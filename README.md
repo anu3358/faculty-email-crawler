@@ -33,3 +33,16 @@ cd punjabiuniv-cse-emails
 ###2. Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
+###3. Install dependencies
+pip install -r requirements.txt
+📄 Create a file named requirements.txt with this content:
+requests
+beautifulsoup4
+
+
+
+🚀 Usage
+Run the script using Python:
+python email_scraper.py
+

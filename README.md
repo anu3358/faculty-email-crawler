@@ -30,9 +30,6 @@ This is a simple Python script that scrapes email addresses of faculty members f
 ```bash
 git clone https://github.com/your-username/punjabiuniv-cse-emails.git
 cd punjabiuniv-cse-emails
+###2. Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-requests
-beautifulsoup4
-python email_scraper.py
